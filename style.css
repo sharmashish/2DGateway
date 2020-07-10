@@ -1,0 +1,13 @@
+.middle{
+  background-color: blue;
+  height: 500px;
+}
+.text{
+  text-align:justify;
+}
+.lead{
+  text-align: justify;
+}
+.button{
+  background-color: orange;
+}
