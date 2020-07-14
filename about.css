@@ -50,7 +50,7 @@ body{
 }
 .pa-2{
 	padding: 2rem 1rem !important;
-	background: url(images/girl-taking-credit-card.jpg);
+	background: url(images/aboutbanner.jpg);
     border-radius: 0%;
 	background-size:cover;
 }
@@ -988,8 +988,7 @@ svg {
 {
   .site-footer [class^=col-]
   {
-	 margin-bottom:30px;
-	text-align: center;
+    margin-bottom:30px
   }
 }
 @media (max-width:767px)
@@ -1073,4 +1072,99 @@ svg {
     margin-right:0;
     font-weight:600
   }
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300);
+.adsaikat-flip-demo {
+    position:relative;
+    width:300px;
+    height:200px;
+    overflow:hidden;
+    margin: 0px auto;
+}
+.adsaikat-flip-demo li {
+  list-style: none;
+}
+.adsaikat-flip-demo figure {
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;
+    margin-left:-50px
+}
+.adsaikat-flip-demo figure img {
+    display:block;
+    position:relative;
+    z-index:10;
+    margin:-15px 0;
+    width: 100%;
+}
+.adsaikat-flip-demo figure figcaption {
+    display:block;
+    position:absolute;
+    z-index:9;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.adsaikat-flip-demo figure h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:#fff;
+    margin: 10px 0px;
+    font-size:26px;
+    text-align:left;
+    font-weight: 300;
+}
+.adsaikat-flip-demo figure p {
+    display:block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:16px;
+    line-height:18px;
+    margin:0;
+    color:#fff;
+    text-align:left;
+    font-weight: 200;
+}
+.adsaikat-flip-demo figure figcaption {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:29px 44px;
+    background-color:rgba(26,76,110,1);
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.adsaikat-flip-demo figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.adsaikat-flip-demo figure:hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg);
+  opacity:0;
+}
+.adsaikat-flip-demo figure:hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}
+
+.zero{
+	justify-content: space-evenly;
+}
+.adsaikat-flip-demo{
+	margin-top:30px;
+	margin-bottom: 20px;
 }
