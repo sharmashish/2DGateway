@@ -580,7 +580,7 @@ body.dark .logo img {
 
 
 .text{
-  text-align:justify;
+  font-size: 3rem !important;
 }
 
 .button{
@@ -1528,6 +1528,6 @@ img {
 
 }
 
-h1 {font-size:20px;margin-bottom:30px;}
+h1 {font-size:52px;margin-bottom:30px;}
 
   

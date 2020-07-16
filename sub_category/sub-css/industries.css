@@ -988,7 +988,8 @@ svg {
 {
   .site-footer [class^=col-]
   {
-    margin-bottom:30px
+    margin-bottom:30px;
+	text-align: center;
   }
 }
 @media (max-width:767px)
